@@ -10,11 +10,10 @@ from rich.console import Console
 from rich.table import Table
 from dotenv import load_dotenv
 
-# Initialize Rich console for better output formatting
+# rich console is much prettier
 console = Console()
 app = typer.Typer()
 
-# Load environment variables
 load_dotenv()
 
 class PromptTester:
@@ -57,7 +56,7 @@ class PromptTester:
                     return ""
                 console.print(f"[yellow]Rate limit hit, waiting {delay} seconds...[/yellow]")
                 time.sleep(delay)
-                delay *= 2  # Exponential backoff
+                delay *= 2  # exponential backoff probably makes the most sense here
             except APIError as e:
                 console.print(f"[red]API Error: {e}[/red]")
                 return ""
