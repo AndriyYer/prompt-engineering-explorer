@@ -1,0 +1,9 @@
+{
+    "chain_of_thought": "Let's analyze Romeo and Juliet step by step:\n1. First, identify the key events in the play\n2. For each event, note the themes it illustrates\n3. Look for patterns in these themes\n4. Consider how these themes connect to universal human experiences\n5. Based on this analysis, what are the main themes of the play?",
+    
+    "few_shot": "Example 1:\nBook: 1984\nTheme: Surveillance and control\nAnalysis: Shows how surveillance represents loss of privacy and autonomy in totalitarian systems\n\nExample 2:\nBook: Animal Farm\nTheme: Power corruption\nAnalysis: Demonstrates how power transforms individuals and corrupts noble ideals\n\nNow analyze:\nBook: Romeo and Juliet\nTheme:\nAnalysis:",
+    
+    "role_prompt": "You are a Shakespearean scholar with expertise in analyzing tragic plays. Based on your deep knowledge of Elizabethan literature and theatrical conventions, analyze the major themes in Romeo and Juliet. Include references to historical context and theatrical techniques of the time.",
+    
+    "system_prompt": "Analyze Romeo and Juliet using this structured format:\n<themes>\n  <theme>\n    <name>Theme name</name>\n    <description>Theme description</description>\n    <example>Specific scene example</example>\n  </theme>\n</themes>"
+}
