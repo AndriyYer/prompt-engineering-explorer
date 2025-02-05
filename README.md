@@ -84,6 +84,6 @@ Big thanks to:
 - OpenAI's documentation
 - Various YouTube tutorials on prompt engineering
 
-Feel free to use this code, suggest improvements, or reach out with questions! I'm still learning, so any feedback is welcome.
+Feel free to use this code, suggest improvements, or reach out with question
 
 ---
